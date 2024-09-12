@@ -1,0 +1,48 @@
+************* Module hw2_debugging
+hw2_debugging.py:5:0: C0325: Unnecessary parens after 'if' keyword (superfluous-parens)
+hw2_debugging.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+hw2_debugging.py:4:0: C0116: Missing function or method docstring (missing-function-docstring)
+hw2_debugging.py:4:0: C0103: Function name "mergeSort" doesn't conform to snake_case naming style (invalid-name)
+hw2_debugging.py:4:14: W0621: Redefining name 'arr' from outer scope (line 34) (redefined-outer-name)
+hw2_debugging.py:13:0: C0116: Missing function or method docstring (missing-function-docstring)
+hw2_debugging.py:13:14: C0103: Argument name "leftArr" doesn't conform to snake_case naming style (invalid-name)
+hw2_debugging.py:13:23: C0103: Argument name "rightArr" doesn't conform to snake_case naming style (invalid-name)
+hw2_debugging.py:14:4: C0103: Variable name "leftIndex" doesn't conform to snake_case naming style (invalid-name)
+hw2_debugging.py:15:4: C0103: Variable name "rightIndex" doesn't conform to snake_case naming style (invalid-name)
+hw2_debugging.py:16:4: C0103: Variable name "mergeArr" doesn't conform to snake_case naming style (invalid-name)
+hw2_debugging.py:19:12: C0103: Variable name "rightIndex" doesn't conform to snake_case naming style (invalid-name)
+hw2_debugging.py:22:12: C0103: Variable name "leftIndex" doesn't conform to snake_case naming style (invalid-name)
+************* Module rand
+rand.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+rand.py:4:0: C0116: Missing function or method docstring (missing-function-docstring)
+rand.py:6:4: C0200: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+rand.py:7:23: W1510: 'subprocess.run' used without explicitly defining the value for 'check'. (subprocess-run-check)
+
+
+Your code has been rated at 4.52/10 (previous run: 4.52/10, +0.00)
+
+
+
+PS D:\NCSU - Academics\3rd Sem - Fall 2024\CSC 510 - SE\Hw2\hw2> pylint hw2_debugging.py rand.py
+>>
+************* Module hw2_debugging
+hw2_debugging.py:10:15: W0621: Redefining name 'arr' from outer scope (line 59) (redefined-outer-name)
+
+------------------------------------------------------------------
+Your code has been rated at 9.68/10 (previous run: 4.52/10, +5.16)
+
+
+
+
+PS D:\NCSU - Academics\3rd Sem - Fall 2024\CSC 510 - SE\Hw2\hw2> pylint hw2_debugging.py rand.py
+>>
+
+-------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 9.68/10, +0.32)
+
+
+
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
